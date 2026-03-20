@@ -1,0 +1,12 @@
+target/
+node_modules/
+*.log
+.env
+wallet.json
+keeper-wallet.json
+.anchor/
+test-ledger/
+.DS_Store
+dist/
+build/
+*.so
