@@ -1,0 +1,17 @@
+[package]
+name = "keeper"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "keeper"
+path = "src/main.rs"
+
+[dependencies]
+solana-sdk = { workspace = true }
+solana-client = { workspace = true }
+serde = { workspace = true }
+serde_yaml = { workspace = true }
+tokio = { workspace = true }
+log = { workspace = true }
+env_logger = { workspace = true }
