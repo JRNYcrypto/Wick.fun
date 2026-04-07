@@ -1,0 +1,13 @@
+[package]
+name = "wick-sdk"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "wick_sdk"
+path = "src/lib.rs"
+
+[dependencies]
+solana-sdk = { workspace = true }
+solana-client = { workspace = true }
+serde = { workspace = true }
