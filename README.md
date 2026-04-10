@@ -1,6 +1,6 @@
-# Wick
+![Wick](Wick.fun%20banner.png)
 
-Atomic volume infrastructure for Solana tokens.
+# Atomic volume infrastructure for Solana tokens.
 
 Wick turns trading fees into green wicks. Fees from $WICK trading accumulate in a vault. On a timer, the vault fires an atomic buy+sell transaction into the chart. The buy outweighs the sell so the chart only goes up. Because it's one atomic transaction, it can't be sandwiched.
 
