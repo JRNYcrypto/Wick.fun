@@ -1,0 +1,17 @@
+# wick vault configuration
+vault:
+  mint: "<TOKEN_MINT_ADDRESS>"
+  authority: "Wick67yV6tpCRVaPPXzXFi4HBjmkAYugdG9ffFJu2uv"
+  interval_seconds: 900
+  min_balance_sol: 0.1
+  retention_ratio: 0.2
+  max_slippage_bps: 300
+
+keeper:
+  rpc_url: "https://api.mainnet-beta.solana.com"
+  priority_fee_lamports: 50000
+  retry_attempts: 3
+
+logging:
+  log_to_file: true
+  log_path: "wick_history.log"
